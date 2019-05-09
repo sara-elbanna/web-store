@@ -1,0 +1,76 @@
+
+/* Navbar */
+
+h4,p{
+	display: inline-block;
+	margin-left: 10px
+}
+.name h4{margin-left: 0}
+span{margin: 10px}
+a,a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+nav.navbar{
+	background-color: #e8e8e8a8;
+	padding: 20px
+}
+.navbar .logo h2{
+	margin: 0
+}
+.navbar .navLinks >input[type="search"]{
+	display: inline-block !important ;
+	width: auto;
+}
+.navbar .dropdown{
+	display: inline-block;
+}
+.navbar .dropdown:last-of-type button{
+	padding: 4px 12px
+} 
+.navbar .dropdown-menu{
+	left: auto;
+	right: 0
+}
+/*.navbar .dropdown-menu > div.products >ul:first-of-type{
+	padding-left: 20px;
+	padding-top: 10px
+}*/
+.navbar form.dropdown-menu{
+	min-width: 300px;
+	padding: 10px;
+	margin: 10px 0
+}
+.navbar form.dropdown-menu button.add{
+	width: 100%
+}
+/*.navbar ul li{
+	display: inline-block;
+	margin-left: 15px
+}*/
+.dropdown-menu .products ul > li > a {
+    display: block;
+    padding: 3px 20px;
+}
+.box{
+	margin-bottom: 30px;	
+}
+.box .name{
+	background-color: #eed;
+	padding: 1px 10px;
+	border-radius: 5px 5px 0 0 
+}
+.box .picture{
+	margin: 10px
+}
+.box:after{
+	    display: table;
+    content: " ";
+    clear: both;
+}
+@media(max-width: 768px){
+	.navLinks{
+		text-align: left;
+	}
+}
+

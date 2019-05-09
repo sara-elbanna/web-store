@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Store</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<title> </title>
+	<link rel="stylesheet"  href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/mystyle.css">
+	<!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 logo">
+					<h2>Store</h2>
+				</div>
+				<div class="navLinks col-sm-8 text-right">
+					<input type="search" name="search" class="form-control search" placeholder="Search">
+					<div class="dropdown dropdownForm  text-right">
+					  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Add Product </button>
+					  <form class="dropdown-menu text-right">
+					  	<div class="row">
+						  	<div class="form-group col-sm-6">
+							    <label for="ptitle">Product Type</label>
+							    <input type="text" class="form-control" id="ptype" value="electronics">
+							</div>
+							<div class="form-group col-sm-6">
+							    <label for="pname">Product name</label>
+							    <input type="text" class="form-control" id="pname">
+							</div>
+						</div>
+						<div class="row">
+						  	<div class="form-group col-sm-6">
+							    <label for="pprice">Product Price</label>
+							    <input type="text" class="form-control" id="pprice">
+							</div>
+							<div class="form-group col-sm-6">
+							    <label for="pcategory">Product Category</label>
+							    <input type="text" class="form-control" id="pcategory">
+							</div>
+						</div>
+						<div class="row">
+						  	<div class="form-group col-sm-6">
+							    <label for="pphoto">Photo Url</label>
+							    <input type="text" class="form-control" id="pphoto">
+							</div>
+							<div class="form-group col-sm-6">
+							    <label for="pselling1">Selling Point1</label>
+							    <input type="text" class="form-control" id="pselling1">
+							</div>
+						</div>
+						<div class="row">
+						  	<div class="form-group col-sm-6">
+							    <label for="pselling2">Selling Point2</label>
+							    <input type="text" class="form-control" id="pselling2">
+							</div>
+							<div class="form-group col-sm-6">
+							    <label for="pselling3">Selling Point3</label>
+							    <input type="text" class="form-control" id="pselling3">
+							</div>
+						</div>
+							<button  class="btn btn-danger add">Add</button>
+					  </form>
+					</div>
+
+					<div class="dropdown  text-right">
+					  <button class="btn btn-primary dropdown-toggle " type="button" data-toggle="dropdown">Menu 
+					  <span class="caret"></span></button>
+					  <ul class="dropdown-menu text-right">
+					  	<div class="products"><ul class="list-unstyled"></ul></div>
+					    <!-- <li class="books"><a href="#">Books</a></li>
+					    <li class="musics"><a href="#">Musics</a></li> -->
+					    <li class="divider"></li>
+					    <li class="all"><a href="#">Show all</a></li>
+					  </ul>
+					</div><!-- dropDown -->
+
+				</div>	
+			</div>				
+		</div>
+	</nav>
+	<div class="content">
+		<div class="container">
+			
+		</div>	
+	</div>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
+
+
